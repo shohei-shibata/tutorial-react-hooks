@@ -1,22 +1,24 @@
-.App {
-  text-align: center;
+body {
+	margin: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
+input {
+	padding: 0 3px;
+	width: calc(300px - 6px);
+	height: 2em;
+	border: none;
+	border-bottom: 1px solid #ccc;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo {
+	padding: 0;
+	width: 300px;
 }
-
-.App-link {
-  color: #09d3ac;
+.todo li {
+	margin: 10px 0px;
+	padding: 10px;
+	list-style-type: none;
+	border: 1px solid #222;
+	cursor: pointer;
+}
+.todo li:hover {
+	background-color: #eee;
 }
